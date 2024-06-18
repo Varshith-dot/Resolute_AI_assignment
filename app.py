@@ -15,5 +15,3 @@ st.header("Task 3: Data Aggregation")
 output_data = pd.read_csv('final_output.csv')
 st.write(output_data.head())
 
-if __name__ == '__main__':
-    st.run()
